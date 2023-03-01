@@ -1,7 +1,10 @@
-//Pregunta al usuario su nombre
-const nombre = prompt("Cuál es tu nombre?")
-// Toma el nombre y lo muestra en pantalla
-document.querySelector('.contenido').innerHTML = `${nombre} esta aprendiendo JS Moderno`;
+//Pide el nombre al usuario
+document.querySelector('.contenido').innerHTML = `${nombre} está aprendiendo JS moderno`;
 
-//Asigna el va,or hacia la variable producto
-const producto = 'Monitor de 24 pulgadas';
+//Toma el nombre y lo muestra en pantalla
+const nombre = prompt('Cual es tu nombre?');
+
+//Asigna el valor a la varibale producto
+var producto = 'Monitor24"';
+
+console.log('hola')

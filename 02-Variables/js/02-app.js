@@ -1,4 +1,12 @@
-let producto = "Monitor 20";
+let producto = 'Tablet';
 
-producto = 'monitor 15';
+//Let permite reasignar el valor de la variable
+producto = "Monitor";
+producto = 4600;
 
+console.log(producto);
+
+let precio;
+precio = 300;
+
+console.log(precio);
